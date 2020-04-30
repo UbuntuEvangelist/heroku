@@ -8,7 +8,7 @@ group :development, :test do
   gem "aws-s3"
   gem "mime-types"
   gem "fakefs"
-  gem "json"
+  gem "json", ">= 2.3.0"
   gem "rspec"
   gem "webmock"
   gem "coveralls", :require => false
