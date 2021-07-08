@@ -10,7 +10,7 @@ group :development, :test do
   gem "fakefs"
   gem "json"
   gem "rspec"
-  gem "webmock"
+  gem "webmock", ">= 1.21.0"
   gem "coveralls", :require => false
   gem "pry"
 end
